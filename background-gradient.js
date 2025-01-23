@@ -2,7 +2,7 @@
 AFRAME.registerShader('background-gradient', {
   schema: {
     colorTop: { type: 'color', default: '#a8baff', is: 'uniform' },
-    colorBottom: { type: 'color', default: '#757575', is: 'uniform' }
+    colorBottom: { type: 'color', default: '#657bd2', is: 'uniform' }
   },
 
   vertexShader: [
