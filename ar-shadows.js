@@ -1,9 +1,5 @@
-/* global AFRAME, THREE */
 AFRAME.registerComponent('ar-shadows', {
-  // Swap an object's material to a transparent shadows-only material while
-  // in AR mode. Intended for use with a ground plane. The object is also
-  // set visible while in AR mode, this is useful if it's hidden in other
-  // modes due to them using a 3D environment.
+  
   schema: {
     opacity: {default: 0.3}
   },
